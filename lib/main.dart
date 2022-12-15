@@ -20,9 +20,10 @@ class MyApp extends StatefulWidget {
 
 class _MyAppState extends State<MyApp> {
  FlutterMidi fluttermidi = new FlutterMidi();
+ String sfFile = 'assets/Best of Guitars-4U-v1.0.sf2';
   @override
   void initState() {
-    load('assets/Best of Guitars-4U-v1.0.sf2');
+    load(sfFile);
     super.initState();
   }
 
