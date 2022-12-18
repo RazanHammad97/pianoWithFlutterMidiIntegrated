@@ -39,6 +39,7 @@ dependencies:
   flutter_midi: ^1.1.0
   piano: ^1.0.3+1
   audioplayers: ^1.1.1
+  url_launcher: ^6.1.7
 
 
 dev_dependencies:
